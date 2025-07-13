@@ -14,15 +14,19 @@ keywords = []
 [tool.setuptools.packages.find]
 where = ["src"]
 include = [
-	"grs*",
-	"tetha*",
+	"grs.grs",
+	"grs.grs.*",
+	"tetha.tetha",
+	"tetha.tetha.*",
 ]
 
 [tool.setuptools.package-dir]
 "" = "src"
 
 [tool.setuptools.package-data]
-"*" = ["*"]
+"grs" = ["src/grs/grs"]
+"tetha" = ["src/tetha/tetha"]
 
 [tool.black]
 line-length = 120
+

@@ -1,11 +1,6 @@
 pyproject.toml
 src/grs/run-dev.sh
-src/grs/grs/asgi.py
-src/grs/grs/async_button.py
-src/grs/grs/conf.py
-src/grs/grs/sinewave.py
 src/grs_tetha.egg-info/PKG-INFO
 src/grs_tetha.egg-info/SOURCES.txt
 src/grs_tetha.egg-info/dependency_links.txt
 src/grs_tetha.egg-info/top_level.txt
-src/tetha/tetha/asgi.py
