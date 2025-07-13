@@ -1,0 +1,15 @@
+celery
+django
+panel[fastapi]
+psycopg2
+rabbitmq
+redis
+sqlalchemy
+sysrsync
+
+# Panel
+bokeh
+wsproto
+bokeh-fastapi
+panel
+watchfiles
